@@ -1,0 +1,92 @@
+body {
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  color: #1e293b;
+  line-height: 1.6;
+  margin: 0;
+  padding: 20px;
+}
+h1 {
+  color: #ffffff;
+  background-color: #0f172a;
+  padding: 24px;
+  border-radius: 8px;
+  text-align: center;
+  border-bottom: 4px solid #00f0ff;
+  font-size: 28px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+h2 {
+  color: #0f172a;
+  border-bottom: 2px solid #00f0ff;
+  padding-bottom: 8px;
+  margin-top: 40px;
+  font-size: 22px;
+}
+h3 {
+  color: #334155;
+  font-size: 18px;
+  margin-top: 24px;
+}
+p {
+  font-size: 14px;
+  color: #475569;
+}
+ul {
+  font-size: 14px;
+  color: #475569;
+}
+.highlight-box {
+  background-color: #f8fafc;
+  border-left: 4px solid #ff0055;
+  padding: 16px;
+  margin: 16px 0;
+  border-radius: 0 8px 8px 0;
+}
+.metric-grid {
+  display: flex;
+  gap: 16px;
+  margin: 20px 0;
+}
+.metric-card {
+  background: #f1f5f9;
+  padding: 16px;
+  border-radius: 8px;
+  border-top: 4px solid #00ff66;
+  flex: 1;
+  text-align: center;
+}
+.metric-card h4 {
+  margin: 0 0 8px 0;
+  color: #64748b;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+.metric-card span {
+  font-size: 24px;
+  font-weight: bold;
+  color: #0f172a;
+}
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 16px;
+  font-size: 14px;
+}
+th, td {
+  border: 1px solid #cbd5e1;
+  padding: 12px;
+  text-align: left;
+}
+th {
+  background-color: #f1f5f9;
+  color: #0f172a;
+}
+.footer {
+  margin-top: 60px;
+  text-align: center;
+  font-size: 12px;
+  color: #94a3b8;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 20px;
+}
